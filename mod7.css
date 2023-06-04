@@ -1,0 +1,220 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+}
+@font-face{
+	font-family: Poppins;
+	src: url(Poppins-SemiBold.otf);
+}
+.user-box {
+    position: relative;
+  }
+
+
+   .user-box input{
+    width: 100%;
+    height: 50px;
+    padding: 10px 5px;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    /* border: 2px black solid; */
+    /* border-bottom: 1px solid #fff; */
+    outline: none;
+    background: #0d0f63;
+  }
+.user-box label{
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    color: #d04eff;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 0;
+  
+    pointer-events: none;
+    transition: .5s;
+  }
+  .ha label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+body{
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(gaming6.jpg) fixed;
+    /* background-image: linear-gradient(133deg, #090B55 0%, #752392 46%, #DA0A55 100%); */
+}
+
+
+  .a{
+      padding:80px;
+      text-decoration: none;
+      color: white;
+  }
+  .a i{
+      border-radius: 25%;
+      padding:20px;
+      background: #F20574;
+      color: white;
+  }
+  .a i:hover{
+      background: white;
+      color: #F20574;
+  }
+.but{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.subtn{
+    padding-top: 10px;
+    justify-content: center;
+	  text-align: center;
+    
+}
+.platform{
+    margin-bottom: 25px;
+}
+.platform .btn{
+   background-color: #090B55;
+   border-color: #000000;
+   width: 68px;
+}
+.platform .btn:hover{
+    background-color: #DA0A55;
+}
+.fb{
+    background-color: #090B55;
+}
+
+h1{
+    font-family: "Poppins";
+    text-align: center;
+    padding-bottom: 50px;
+}
+.form-check-label{
+    font-size: 11px;
+}
+#email, #password{
+    background-color: black;
+    color: white;
+    border-color: #000000;
+}
+#header{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    z-index: 10000;
+  }
+  #header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+
+  span{
+    color: #38BDF2;
+  }
+.kotak{
+    padding: 8vh;
+    
+}
+
+#form-submit{
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #090B55;
+  /*     
+    background: linear-gradient(#010B40 0 0) left / var(--p,0) no-repeat;
+    transition: .4s,background-position 0s; */
+    color: white; 
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#form-submit:hover{
+    /* background-image: linear-gradient(133deg, #FF386E 0%, #F39D00 46%, #481475 100%);
+    transition: 2s; */
+
+background-color: #090B55;
+transition: .5s;
+
+    /* --p: 100%;
+    background-position: right; */
+}
+/* #form-submit{
+    display: block;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    color: white; 
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#form-submit:hover{
+    background-image: linear-gradient(133deg, #FF386E 0%, #F39D00 46%, #481475 100%);
+    transition: 2s;
+} */
+.container{
+    width: 1000%;
+    
+}
+body::-webkit-scrollbar {
+    width: 10px;               
+}
+body::-webkit-scrollbar-track {
+    background-color: transparent;        
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #481475; 
+    border-radius: 100px;       
+}
+/* #form-submit {
+    width: 50%;
+    --c: #1095c1;
+    line-height: 1.2em;
+    background:
+      conic-gradient(from -135deg at 100%  50%,var(--c) 90deg,#0000 0) 
+        0    var(--p,0%)/var(--s,0%) 200% no-repeat,
+      conic-gradient(from -135deg at 100% 50%,#0000 90deg,var(--c) 0) 
+        100% var(--p,0%)/var(--s,0%) 200% no-repeat;
+    transition: .4s ease-in, background-position 0s;
+  }
+  #form-submit:hover {
+    --p: 100%;
+  --s: calc(50% + .61em);
+  } */
